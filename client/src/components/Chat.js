@@ -22,7 +22,7 @@ const Chat = () => {
   const [theme, setTheme] = useState("light");
 
   const location = useLocation();
-  const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = process.env.REACT_APP_ENDPOINT || "http://localhost:5000";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);

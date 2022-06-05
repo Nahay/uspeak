@@ -22,10 +22,10 @@ const Chat = () => {
   const [theme, setTheme] = useState("light");
 
   const location = useLocation();
-  const ENDPOINT = process.env.REACT_APP_ENDPOINT || "http://localhost:5000";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
+    const ENDPOINT = process.env.REACT_APP_ENDPOINT || "http://localhost:5000";
     socket = io(ENDPOINT);
     setRoom(room);
     setName(name);

@@ -2,6 +2,7 @@ const { addUser, removeUser, getUsersNumberByRoom } = require("./user");
 
 const http = require("http");
 const express = require("express");
+require("dotenv/config");
 
 const app = express()
 const server = http.createServer(app)

@@ -1,5 +1,5 @@
 <p align="center">
-<!--   <img src="" alt="Logo" width="85" height="80"> -->
+  <img src="https://raw.githubusercontent.com/Nahay/Chat/master/client/public/logo192.png" alt="Logo" width="85" height="80">
 
   <h3 align="center">U Speak</h3>
 
@@ -8,6 +8,12 @@
     <br />
     <a href="https://u-speak.netlify.app/"><strong>Let's speak »</strong></a>
   </p>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nahay/Assets/master/Chat/banner.png" alt="Banner" height="500">
 </p>
 
 <br/>

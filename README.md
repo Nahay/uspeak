@@ -13,7 +13,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nahay/Assets/master/Chat/banner.png" alt="Banner" height="500">
+  <img src="https://raw.githubusercontent.com/Nahay/Assets/master/Chat/banner.png" alt="Banner">
 </p>
 
 <br/>

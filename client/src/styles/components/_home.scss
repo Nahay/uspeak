@@ -16,7 +16,7 @@
 
         width:400px;
         height:350px;
-        padding:50px 0px;
+        padding:50px 0px 70px 0;
         background-color: var(--color-bg);
 
         border-radius: 20px;
@@ -48,7 +48,7 @@
             &:focus { outline: none; }
         }
 
-        a {
+        a:nth-child(5) {
             width:85%;
 
             button {
@@ -64,6 +64,18 @@
                 cursor:pointer;
 
                 &:active { background-color: var(--color-blue-dark); }
+            }
+        }
+
+        a:nth-child(6) {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+
+            & svg {
+                width: 25px;
+                height: 25px;
+                fill: white;
             }
         }
     }
